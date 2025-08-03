@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-08-02T02:05:09.414Z",
+  "timestamp": "2025-08-03T02:26:04.160Z",
   "profile": {
     "login": "RJTPP",
     "id": 97868966,
@@ -26,14 +26,14 @@
     "location": "Kasetsart University",
     "email": null,
     "hireable": null,
-    "bio": "Computer Engineering Student",
+    "bio": null,
     "twitter_username": null,
     "public_repos": 15,
     "public_gists": 0,
     "followers": 5,
     "following": 6,
     "created_at": "2022-01-17T05:33:45Z",
-    "updated_at": "2025-07-31T05:51:40Z"
+    "updated_at": "2025-08-02T07:15:27Z"
   },
   "repos": [
     {
@@ -104,14 +104,14 @@
       "releases_url": "https://api.github.com/repos/RJTPP/RJTPP.github.io/releases{/id}",
       "deployments_url": "https://api.github.com/repos/RJTPP/RJTPP.github.io/deployments",
       "created_at": "2025-07-31T01:06:01Z",
-      "updated_at": "2025-08-01T19:00:18Z",
-      "pushed_at": "2025-08-01T19:00:15Z",
+      "updated_at": "2025-08-02T02:05:14Z",
+      "pushed_at": "2025-08-02T02:05:11Z",
       "git_url": "git://github.com/RJTPP/RJTPP.github.io.git",
       "ssh_url": "git@github.com:RJTPP/RJTPP.github.io.git",
       "clone_url": "https://github.com/RJTPP/RJTPP.github.io.git",
       "svn_url": "https://github.com/RJTPP/RJTPP.github.io",
       "homepage": "https://rjtpp.github.io/",
-      "size": 85,
+      "size": 86,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -1046,7 +1046,7 @@
       "deployments_url": "https://api.github.com/repos/RJTPP/RJTPP/deployments",
       "created_at": "2025-02-23T05:15:41Z",
       "updated_at": "2025-07-25T06:08:55Z",
-      "pushed_at": "2025-08-02T00:49:06Z",
+      "pushed_at": "2025-08-03T00:57:14Z",
       "git_url": "git://github.com/RJTPP/RJTPP.git",
       "ssh_url": "git@github.com:RJTPP/RJTPP.git",
       "clone_url": "https://github.com/RJTPP/RJTPP.git",
