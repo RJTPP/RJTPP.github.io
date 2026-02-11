@@ -1,0 +1,51 @@
+<!DOCTYPE html><!--
+  Rendering structure:
+  1) Layout gets SEO metadata from MDX frontmatter.
+  2) This file renders the shared page shell (heading/byline/date).
+  3) <Content /> injects markdown/MDX body from the entry.
+  4) Footer is collection-driven and shows enabled pages in order.
+--><html lang="en" data-astro-cid-sckkx6r4> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="author" content="Rajata Thamcharoensatit"><title>About Rajata Thamcharoensatit | RJTPP Portfolio</title><meta name="description" content="Read Rajata Thamcharoensatit's background, engineering focus, and project values as a Computer Engineering student building practical AI systems."><meta name="robots" content="index,follow,max-image-preview:large"><link rel="canonical" href="https://rjtpp.com/about/"><!-- Open Graph / Facebook --><meta property="og:type" content="website"><meta property="og:url" content="https://rjtpp.com/about/"><meta property="og:site_name" content="RJTPP Portfolio"><meta property="og:title" content="About Rajata Thamcharoensatit | RJTPP Portfolio"><meta property="og:description" content="Read Rajata Thamcharoensatit's background, engineering focus, and project values as a Computer Engineering student building practical AI systems."><meta property="og:image" content="https://rjtpp.com/og/default.jpg"><meta property="og:image:type" content="image/jpeg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="RJTPP Portfolio preview image"><!-- Twitter --><meta property="twitter:card" content="summary_large_image"><meta property="twitter:url" content="https://rjtpp.com/about/"><meta property="twitter:title" content="About Rajata Thamcharoensatit | RJTPP Portfolio"><meta property="twitter:description" content="Read Rajata Thamcharoensatit's background, engineering focus, and project values as a Computer Engineering student building practical AI systems."><meta property="twitter:image" content="https://rjtpp.com/og/default.jpg"><meta property="twitter:image:alt" content="RJTPP Portfolio preview image"><link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="anonymous"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"><link rel="preload" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600&display=swap" as="style" crossorigin="anonymous"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600&display=swap" media="print" crossorigin="anonymous" onload="this.media='all'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600&display=swap"></noscript><link rel="preload" href="/icons/github.svg" as="image" type="image/svg+xml"><link rel="preconnect" href="https://raw.githubusercontent.com" crossorigin="anonymous"><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://rjtpp.com/#website","name":"RJTPP Portfolio","url":"https://rjtpp.com/","description":"Read Rajata Thamcharoensatit's background, engineering focus, and project values as a Computer Engineering student building practical AI systems."},{"@type":"WebPage","@id":"https://rjtpp.com/about/#webpage","url":"https://rjtpp.com/about/","name":"About Rajata Thamcharoensatit | RJTPP Portfolio","description":"Read Rajata Thamcharoensatit's background, engineering focus, and project values as a Computer Engineering student building practical AI systems.","datePublished":"2026-02-08","dateModified":"2026-02-08","isPartOf":{"@id":"https://rjtpp.com/#website"},"about":{"@id":"https://rjtpp.com/#person"}},{"@type":"Person","@id":"https://rjtpp.com/#person","name":"Rajata Thamcharoensatit","url":"https://rjtpp.com/","jobTitle":"Computer Engineering Student","mainEntityOfPage":{"@id":"https://rjtpp.com/about/#webpage"},"sameAs":["https://github.com/RJTPP","https://gitlab.com/rjtpp","https://huggingface.co/rjtpp","https://www.linkedin.com/in/rjtpp/"]}]}</script><link rel="icon" href="/favicon.ico" id="dynamic-favicon"><!-- Smooth scrolling --><!-- Theme initialization script - runs before render to prevent flash --><!--
+  Purpose:
+  Apply initial theme and favicon state before first paint to avoid flash,
+  and expose a JS-enabled marker class used by progressive enhancement CSS.
+  
+  This script runs inline (not bundled) to execute before first paint.
+--><script>
+  (function () {
+    // Theme configuration (keep in sync with utils/themeMode.js constants)
+    const THEME_STORAGE_KEY = "themeMode";
+    const DEFAULT_THEME_MODE = "dark";
+
+    const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+    const themeMode =
+      localStorage.getItem(THEME_STORAGE_KEY) || DEFAULT_THEME_MODE;
+
+    // 1) Apply theme class before content paint to avoid light/dark flash
+    const isDark =
+      themeMode === "auto" ? mediaQuery.matches : themeMode === "dark";
+    if (isDark) {
+      document.documentElement.classList.add("dark");
+    }
+
+    // 2) Mark JS mode so progressive enhancement CSS branches can activate
+    document.documentElement.classList.add("js");
+
+    // 3) Keep favicon synchronized with system theme from first render
+    const favicon = document.getElementById("dynamic-favicon");
+    if (favicon instanceof HTMLLinkElement) {
+      favicon.href = mediaQuery.matches ? "/favicon-dark.ico" : "/favicon.ico";
+    }
+  })();
+</script><link rel="stylesheet" href="/_astro/_slug_.DkeocCIn.css">
+<link rel="stylesheet" href="/_astro/_slug_.C6PbHcqV.css"></head> <body class data-astro-cid-sckkx6r4> <a href="#main-content" class="skip-link" data-astro-cid-sckkx6r4>Skip to main content</a> <main id="main-content" class="min-h-screen dark:bg-dark-bg dark:text-text-primary text-slate-900 relative overflow-x-hidden transition-colors duration-300" data-astro-cid-sckkx6r4>  <div class="min-h-screen flex flex-col"> <section class="flex-1 px-4 py-28"> <div class="container-reading max-w-3xl mx-auto space-y-6"> <h1 class="text-4xl md:text-5xl font-display font-bold">About</h1> <p class="text-sm text-slate-600 dark:text-slate-400"> Rajata Thamcharoensatit  •  <time dateTime="2026-02-08">Updated February 8, 2026</time> </p> <div class="mdx-static-page-prose"> <p>I’m a Computer Engineering student at Kasetsart University, passionate about learning and building systems that are both technically sound and practical to use. I enjoy working across layers, from core logic and backend architecture to frontend experiences, with a focus on clarity, reliability, and maintainability.</p>
+<p>I’m particularly interested in AI and Large Language Models, especially where reasoning quality, efficiency, and real-world constraints intersect. I like turning ambiguous ideas into structured problems, then building solutions that are testable, explainable, and useful in practice.</p>
+<p>I’m continuously developing my skills through hands-on projects, competitions, and technical exploration. My goal is to grow into an engineer who can design thoughtful systems and communicate them clearly to teammates, reviewers, and users.</p>
+<!--
+  NOTE:
+  This component is rendered inside MDX content wrapped by `mdx-static-page-prose` in `src/pages/[slug].astro`.
+  That wrapper adds global list styles (`ul` gets `list-disc`, padding-left, and `space-y-1`).
+  For this horizontal nav, we explicitly reset those styles on `<ul>` to avoid vertical offset.
+  The current page stays visible but is rendered as non-clickable text (`aria-current="page"`).
+--><nav class="mt-10 border-t border-slate-300/70 pt-6 dark:border-slate-700/80" aria-label="Related pages"><ul class="static-page-links-list m-0 list-none !pl-0 !space-y-0 flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-slate-700 dark:text-slate-300"><li><span class="font-semibold text-slate-900 dark:text-slate-100" aria-current="page">About</span></li><li><a href="/privacy" class="underline-offset-4 transition hover:text-cyan-600 hover:underline dark:hover:text-cyan-400">Privacy Policy</a></li><li><a href="/" class="underline-offset-4 transition hover:text-cyan-600 hover:underline dark:hover:text-cyan-400">Back to home</a></li></ul></nav> </div> </div> </section> <footer class="py-12 px-4"> <div class="container-page text-center"> <nav class="flex flex-wrap items-center justify-center gap-4 mb-4 text-sm text-slate-700 dark:text-slate-300"> <a href="/about" class="hover:text-cyan-500 dark:hover:text-cyan-400 transition-colors"> About </a><a href="/privacy" class="hover:text-cyan-500 dark:hover:text-cyan-400 transition-colors"> Privacy Policy </a> </nav> <p class="text-sm text-slate-600 dark:text-slate-400">
+© 2026 Rajata Thamcharoensatit. Built with Astro, React, Tailwind CSS, and a passion for clean design.
+</p> </div> </footer> </div>  </main> </body></html>
